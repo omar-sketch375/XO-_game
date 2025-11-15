@@ -1,0 +1,117 @@
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+.title{
+    background: #f25;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span{
+    color:#fa0;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background: #f25;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+.square:hover{
+    background: #000;
+    cursor: pointer;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    margin: 0;
+    font-family: system-ui;
+}
+
+
+.game {
+    width: 330px;              
+    text-align: center;
+    color: white;
+    user-select: none;
+}
+
+
+.title {
+    background: #f25;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.title span {
+    color: #fa0;
+}
+
+
+.square {
+    width: 100px;              
+    height: 100px;
+    background: #f25;
+    float: left;
+    margin: 5px;
+    font-size: 70px;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+
+.square:hover {
+    background: #e00;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 400px) {
+    .square {
+        width: 80px;
+        height: 80px;
+        font-size: 55px;
+        margin: 4px;
+    }
+
+    .game {
+        width: 270px;
+    }
+}
+
+.restart-btn{
+  display: block;
+  margin: 14px auto 0;
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background: #fa0;
+  color: #111;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.restart-btn:hover{ transform: translateY(-3px); }
+
+
+
+
